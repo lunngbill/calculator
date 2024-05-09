@@ -1,0 +1,68 @@
+.calculator {
+    width: 250px;
+    margin: 50px auto; 
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("blastoise.jpg");
+    opacity: 80%;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#display {
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px gold ridge;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: ;
+    background: lightskyblue;
+    opacity: 100%;
+}
+
+h4 {
+    color: gray;
+    text-shadow: 0 0 0.75rem white;
+    font-family: 'Jaro';
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+.buttons button {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+
+.clear {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+#clear {
+    background: darkred;
+    color: white;
+}
+
+#operator {
+    background-color: darkblue;
+    color: white;
+}
+
+.buttons button:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.2rem);
+    background-color: darkolivegreen;
+    box-shadow: 3px 4px 5px greenyellow;
+}
